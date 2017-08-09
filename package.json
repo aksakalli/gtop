@@ -1,0 +1,36 @@
+{
+    "name": "gtop",
+    "version": "0.1.0",
+    "description": "graphic top",
+    "main": "./index.js",
+    "bin": {
+        "gtop": "./bin/gtop"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./bin/gtop"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aksakalli/gtop.git"
+    },
+    "keywords": [
+        "sytem",
+        "monitoring",
+        "top",
+        "chart"
+    ],
+    "author": "aksakalli",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aksakalli/gtop/issues"
+    },
+    "homepage": "https://github.com/aksakalli/gtop#readme",
+    "dependencies": {
+        "blessed": "^0.1.81",
+        "blessed-contrib": "^4.7.5",
+        "log": "^1.4.0",
+        "systeminformation": "^3.25.1",
+        "ttystudio": "0.0.16"
+    }
+}
