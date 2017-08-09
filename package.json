@@ -1,6 +1,6 @@
 {
     "name": "gtop",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "graphic top",
     "main": "./index.js",
     "bin": {
@@ -29,8 +29,6 @@
     "dependencies": {
         "blessed": "^0.1.81",
         "blessed-contrib": "^4.7.5",
-        "log": "^1.4.0",
-        "systeminformation": "^3.25.1",
-        "ttystudio": "0.0.16"
+        "systeminformation": "^3.25.1"
     }
 }
