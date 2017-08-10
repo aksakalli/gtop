@@ -5,7 +5,7 @@ description: |
   System monitoring dashboard for terminal
 
 grade: stable
-confinement: devmodeg
+confinement: devmode
 
 apps:
   gtop:
