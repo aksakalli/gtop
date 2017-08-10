@@ -14,4 +14,4 @@ apps:
 parts:
   gtop:
     plugin: nodejs
-    source: https://github.com/aksakalli/gtop.git
+    source: .
