@@ -4,11 +4,18 @@
 
 System monitoring dashboard for terminal.
 
-**installing:**
+### Requirements
+
+* Linux / OSX (Windows is currently partially supported)
+* Node.js >= v4
+
+### Installation
 
 ```
 $ npm install gtop -g
 ```
+
+### Usage
 
 You can sort the process table by pressing
 

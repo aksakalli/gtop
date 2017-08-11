@@ -1,34 +1,40 @@
 {
-    "name": "gtop",
-    "version": "0.1.1",
-    "description": "graphic top",
-    "main": "./index.js",
-    "bin": {
-        "gtop": "./bin/gtop"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "./bin/gtop"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/aksakalli/gtop.git"
-    },
-    "keywords": [
-        "sytem",
-        "monitoring",
-        "top",
-        "chart"
-    ],
-    "author": "aksakalli",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/aksakalli/gtop/issues"
-    },
-    "homepage": "https://github.com/aksakalli/gtop#readme",
-    "dependencies": {
-        "blessed": "^0.1.81",
-        "blessed-contrib": "^4.7.5",
-        "systeminformation": "^3.25.1"
-    }
+  "name": "gtop",
+  "version": "0.1.1",
+  "description": "graphic top",
+  "main": "./index.js",
+  "bin": {
+    "gtop": "./bin/gtop"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/gtop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksakalli/gtop.git"
+  },
+  "keywords": [
+    "system",
+    "monitoring",
+    "top",
+    "chart",
+    "monitor",
+    "dashboard",
+    "os"
+  ],
+  "author": "aksakalli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aksakalli/gtop/issues"
+  },
+  "homepage": "https://github.com/aksakalli/gtop#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5",
+    "systeminformation": "^3.25.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
