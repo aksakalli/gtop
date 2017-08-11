@@ -4,3 +4,4 @@ img/
 node_modules/
 *.gif
 *.png
+.github/
