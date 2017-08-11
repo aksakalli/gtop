@@ -12,7 +12,7 @@ System monitoring dashboard for terminal.
 ### Installation
 
 ```
-$ npm install gtop -g
+$ sudo npm install gtop -g
 ```
 
 ### Usage
