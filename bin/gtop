@@ -1,3 +1,19 @@
 #!/usr/bin/env node
 
-require('../lib/gtop').init()
+if (process.argv[2] === '--help') {
+  console.log(`
+    gtop [-cpu|-mem|-net|-disk|-proc]
+
+    With no flags supplied gtop runs all on default
+    Adding flags will show only the windows for the flags supplied
+
+    -cpu: Show the cpu usage window
+    -mem: Show the memory usage window
+    -net: Show the network history window
+    -disk: Show the disk usage window
+    -proc: Show the running processes window
+  `);
+} else {
+  let flags = process.argv.slice(2);
+  require('../lib/gtop').init(flags)
+}
