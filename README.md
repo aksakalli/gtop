@@ -4,6 +4,10 @@
 
 System monitoring dashboard for terminal.
 
+  [![NPM Version](https://img.shields.io/npm/v/gtop.svg)](https://npmjs.org/package/gtop)
+  [![NPM Downloads](https://img.shields.io/npm/dm/gtop.svg)](https://npmjs.org/package/gtop)
+  [![Snap Status](https://build.snapcraft.io/badge/aksakalli/gtop.svg)](https://build.snapcraft.io/user/aksakalli/gtop)
+
 ### Requirements
 
 * Linux / OSX / Windows (partial support)
