@@ -4,6 +4,10 @@
 
 System monitoring dashboard for terminal.
 
+  [![NPM Version](https://img.shields.io/npm/v/gtop.svg)](https://npmjs.org/package/gtop)
+  [![NPM Downloads](https://img.shields.io/npm/dm/gtop.svg)](https://npmjs.org/package/gtop)
+  [![Snap Status](https://build.snapcraft.io/badge/aksakalli/gtop.svg)](https://build.snapcraft.io/user/aksakalli/gtop)
+
 ### Requirements
 
 * Linux / OSX / Windows (partial support)
@@ -25,7 +29,7 @@ You can sort the process table by pressing
 
 ### Troubleshooting
 
-If you see questions marks or other different characters, try to run it with these environment variables:
+If you see question marks or other different characters, try to run it with these environment variables:
 
 ```
 $ LANG=en_US.utf8 TERM=xterm-256color gtop

@@ -1,0 +1,17 @@
+name: gtop
+version: git
+summary: System monitoring dashboard for terminal
+description: |
+  System monitoring dashboard for terminal
+
+grade: stable
+confinement: devmode
+
+apps:
+  gtop:
+    command: gtop
+
+parts:
+  gtop:
+    plugin: nodejs
+    source: .
