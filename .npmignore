@@ -5,3 +5,4 @@ node_modules/
 *.gif
 *.png
 .github/
+snap/
