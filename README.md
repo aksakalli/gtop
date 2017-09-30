@@ -19,6 +19,33 @@ System monitoring dashboard for terminal.
 $ npm install gtop -g
 ```
 
+### Docker
+
+**To try it on the fly**, just run:
+
+```
+docker run --rm -it \
+--name gtop \
+--net="host" \
+--pid="host" \
+devmtl/gtop:stable
+```
+
+**To use you own docker image:**:
+
+- Clone this repo
+- Build the docker image (from the Dockerfile) them, run the image
+
+```
+docker build -t gtop .
+
+docker run --rm -it \
+--name gtop \
+--net="host" \
+--pid="host" \
+ gtop
+```
+
 ### Usage
 
 You can sort the process table by pressing
