@@ -1,1 +1,1 @@
-module.exports = require('./lib/gtop');
+module.exports = require('./lib/gtop')
