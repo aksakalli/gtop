@@ -12,6 +12,7 @@ System monitoring dashboard for terminal.
 
 * Linux / OSX / Windows (partial support)
 * Node.js >= v4
+* nvidia-smi (GPU mode only)
 
 ### Installation
 
@@ -20,12 +21,23 @@ $ npm install gtop -g
 ```
 
 ### Usage
+* argument
+  * CPU mode
 
-You can sort the process table by pressing
+    ```
+    $ gtop
+    ```
 
-* `p`: Process Id
-* `c`: CPU usage
-* `m`: Memory usage
+  * GPU mode
+
+    ```
+    $ gtop -g
+    ```
+
+* sort the process table by pressing
+  * `p`: Process Id
+  * `c`: CPU usage
+  * `m`: Memory usage
 
 ### Troubleshooting
 

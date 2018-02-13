@@ -32,6 +32,8 @@
   "dependencies": {
     "blessed": "^0.1.81",
     "blessed-contrib": "^4.7.5",
+    "child_process": "^1.0.2",
+    "commander": "^2.14.1",
     "systeminformation": "^3.25.1"
   },
   "engines": {
