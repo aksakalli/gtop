@@ -1,3 +1,9 @@
 #!/usr/bin/env node
 
-require('../lib/gtop').init()
+commander = require('commander')
+
+commander
+  .option('-g, --gpu', 'GPU mode')
+  .parse(process.argv)
+
+require('../lib/gtop').init(commander.gpu)
