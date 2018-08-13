@@ -27,7 +27,7 @@ Start gtop with the `gtop` command
 $ gtop
 ```
 
-To stop gtop, use `ctrl+c` in most shell environments.
+To stop gtop use `q`, or `ctrl+c` in most shell environments.
 
 You can sort the process table by pressing
 
