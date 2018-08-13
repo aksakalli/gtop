@@ -21,6 +21,14 @@ $ npm install gtop -g
 
 ### Usage
 
+Start gtop with the `gtop` command
+
+```sh
+$ gtop
+```
+
+To stop gtop use `q`, or `ctrl+c` in most shell environments.
+
 You can sort the process table by pressing
 
 * `p`: Process Id
