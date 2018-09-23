@@ -7,7 +7,7 @@
     "gtop": "./bin/gtop"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Test will be implemented.\" && exit 0",
     "start": "./bin/gtop"
   },
   "repository": {
