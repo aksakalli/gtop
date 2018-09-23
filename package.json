@@ -7,7 +7,7 @@
     "gtop": "./bin/gtop"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Test will be implemented.\" && exit 0",
     "start": "./bin/gtop"
   },
   "repository": {
@@ -31,8 +31,8 @@
   "homepage": "https://github.com/aksakalli/gtop#readme",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.7.5",
-    "systeminformation": "^3.25.1"
+    "blessed-contrib": "^4.8.6",
+    "systeminformation": "^3.45.6"
   },
   "engines": {
     "node": ">=4.0.0"
