@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - stable
+deploy:
+  provider: npm
+  email: cgaksakalli@gmail.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+    branch: master
