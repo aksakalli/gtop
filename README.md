@@ -15,35 +15,20 @@ System monitoring dashboard for terminal.
 
 ### Installation
 
-```
+```sh
 $ npm install gtop -g
 ```
 
-### Docker
+#### Docker
 
-**To try it on the fly**, just run:
+You need to assign host `net` and `pid` to access the metrics in the host machine.
 
-```
-docker run --rm -it \
---name gtop \
---net="host" \
---pid="host" \
-devmtl/gtop:stable
-```
-
-**To use you own docker image:**:
-
-- Clone this repo
-- Build the docker image (from the Dockerfile) them, run the image
-
-```
-docker build -t gtop .
-
-docker run --rm -it \
---name gtop \
---net="host" \
---pid="host" \
- gtop
+```sh
+$ docker run --rm -it \
+    --name gtop \
+    --net="host" \
+    --pid="host" \
+    aksakalli/gtop
 ```
 
 ### Usage
@@ -66,7 +51,7 @@ You can sort the process table by pressing
 
 If you see question marks or other different characters, try to run it with these environment variables:
 
-```
+```sh
 $ LANG=en_US.utf8 TERM=xterm-256color gtop
 ```
 

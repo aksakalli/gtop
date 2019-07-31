@@ -1,9 +1,12 @@
-FROM node:4-slim
+FROM node:5-slim
 
 ENV LANG=en_US.utf8 \
     TERM=xterm-256color
 
-RUN apt-get update -y && apt-get upgrade -qy && \
-    npm install gtop -g
+COPY lib lib
+COPY bin bin
+COPY package.json .
+COPY package-lock.json .
 
-ENTRYPOINT ["gtop"]
+RUN npm install
+ENTRYPOINT ["./bin/gtop"]
