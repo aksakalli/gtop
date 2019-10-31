@@ -32,7 +32,8 @@
   "dependencies": {
     "blessed": "^0.1.81",
     "blessed-contrib": "^4.8.16",
-    "systeminformation": "^4.14.4"
+    "systeminformation": "^4.14.4",
+    "yargs": "^14.2.0"
   },
   "engines": {
     "node": ">=4.0.0"
