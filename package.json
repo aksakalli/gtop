@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Test will be implemented.\" && exit 0",
     "start": "./bin/gtop",
-    "lint": "prettier --single-quote --trailing-comma es5 --write lib/**/*"
+    "lint": "prettier --single-quote --trailing-comma es5 --write 'lib/**/*.js'"
   },
   "repository": {
     "type": "git",
