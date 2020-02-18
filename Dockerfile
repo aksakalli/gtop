@@ -6,7 +6,6 @@ ENV LANG=en_US.utf8 \
 COPY lib lib
 COPY bin bin
 COPY package.json .
-COPY package-lock.json .
 
-RUN npm install
+RUN npm install --production
 ENTRYPOINT ["./bin/gtop"]
