@@ -1,6 +1,6 @@
 {
   "name": "gtop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "graphic top",
   "main": "./index.js",
   "bin": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Test will be implemented.\" && exit 0",
-    "start": "./bin/gtop"
+    "start": "./bin/gtop",
+    "lint": "prettier --single-quote --trailing-comma es5 --write lib/**/*"
   },
   "repository": {
     "type": "git",
@@ -31,10 +32,13 @@
   "homepage": "https://github.com/aksakalli/gtop#readme",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.8.16",
-    "systeminformation": "^4.14.4"
+    "blessed-contrib": "^4.8.17",
+    "systeminformation": "^4.22.1"
   },
   "engines": {
     "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
   }
 }
