@@ -8,4 +8,4 @@ docker run --rm -it \
 	aksakalli/gtop
 EOF
 
-sudo chmod 100 /usr/local/bin/gtop
+sudo chmod a+x /usr/local/bin/gtop
