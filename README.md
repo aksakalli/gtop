@@ -37,7 +37,7 @@ $ docker run --rm -it \
 
 Run gtop in your terminal using the `gtop` command, but in a docker container by running the following lines.
 ```sh
-$ sh -c "$(curl -fSsL https://raw.githubusercontent.com/snpranav/gtop/master/gtop-docker.sh)"
+$ sh -c "$(curl -fSsL https://raw.githubusercontent.com/aksakalli/gtop/master/gtop-docker.sh)"
 
 $ gtop		# Run gtop from your terminal whenever you want to open gtop.
 ```
