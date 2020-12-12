@@ -13,7 +13,7 @@ System monitoring dashboard for terminal.
 ### Requirements
 
 * Linux / OSX / Windows (partial support)
-* Node.js >= v4
+* Node.js >= v8
 
 ### Installation
 
