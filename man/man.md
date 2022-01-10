@@ -23,7 +23,7 @@ The following commands are supported while in gtop:
 
 ## Website
 
-[https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
+https://github.com/aksakalli/gtop
 
 ## BUGS
 
