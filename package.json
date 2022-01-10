@@ -10,8 +10,10 @@
     "test": "echo \"Test will be implemented.\" && exit 0",
     "start": "./bin/gtop",
     "lint": "prettier --single-quote --trailing-comma es5 --write 'lib/**/*.js'",
-    "lint-check": "prettier --check --single-quote --trailing-comma es5 'lib/**/*.js'"
+    "lint-check": "prettier --check --single-quote --trailing-comma es5 'lib/**/*.js'",
+    "man": "cd man && marked-man --version 'v1.1.2' --manual 'Gtop Help' --section 1 man.md > gtop.1"
   },
+  "man": ["man/gtop.1"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aksakalli/gtop.git"
@@ -40,6 +42,7 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
+    "marked-man": "^0.7.0",
     "prettier": "1.19.1"
   }
 }
