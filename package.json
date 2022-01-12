@@ -11,9 +11,9 @@
     "start": "./bin/gtop",
     "lint": "prettier --single-quote --trailing-comma es5 --write 'lib/**/*.js'",
     "lint-check": "prettier --check --single-quote --trailing-comma es5 'lib/**/*.js'",
-    "prepublishOnly": "cd man && marked-man --version $npm_package_version --manual 'Gtop Help' --section 1 man.md > gtop.1"
+    "prepublishOnly": "marked-man --version $npm_package_version --manual 'Gtop Help' --section 1 ./CLI.md > gtop.1"
   },
-  "man": ["man/gtop.1"],
+  "man": ["./gtop.1"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aksakalli/gtop.git"
