@@ -11,7 +11,7 @@
     "start": "./bin/gtop",
     "lint": "prettier --single-quote --trailing-comma es5 --write 'lib/**/*.js'",
     "lint-check": "prettier --check --single-quote --trailing-comma es5 'lib/**/*.js'",
-    "man": "cd man && marked-man --version 'v1.1.2' --manual 'Gtop Help' --section 1 man.md > gtop.1"
+    "man": "cd man && marked-man --version $npm_package_version --manual 'Gtop Help' --section 1 man.md > gtop.1"
   },
   "man": ["man/gtop.1"],
   "repository": {
