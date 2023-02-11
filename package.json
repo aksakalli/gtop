@@ -13,7 +13,9 @@
     "lint-check": "prettier --check --single-quote --trailing-comma es5 'lib/**/*.js'",
     "prepublishOnly": "marked-man --version $npm_package_version --manual 'Gtop Help' --section 1 ./CLI.md > gtop.1"
   },
-  "man": ["./gtop.1"],
+  "man": [
+    "./gtop.1"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aksakalli/gtop.git"
@@ -42,6 +44,7 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
+    "@types/blessed": "^0.1.19",
     "marked-man": "^0.7.0",
     "prettier": "1.19.1"
   }
