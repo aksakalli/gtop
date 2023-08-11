@@ -1,17 +1,20 @@
 name: gtop
-version: git
 summary: System monitoring dashboard for terminal
 description: |
   System monitoring dashboard for terminal
-
+version: git
+base: core22
 grade: stable
-confinement: devmode
+
+confinement: classic
 
 apps:
   gtop:
-    command: gtop
+    command: bin/gtop
 
 parts:
   gtop:
-    plugin: nodejs
     source: .
+    plugin: npm
+    npm-include-node: true
+    npm-node-version: "17.3.0"
