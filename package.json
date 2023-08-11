@@ -35,8 +35,8 @@
   "homepage": "https://github.com/aksakalli/gtop#readme",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.10.1",
-    "systeminformation": "^5.10.0"
+    "blessed-contrib": "^4.11.0",
+    "systeminformation": "^5.18.15"
   },
   "engines": {
     "node": ">=4.0.0"
