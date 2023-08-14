@@ -2,7 +2,7 @@ name: gtop
 summary: System monitoring dashboard for terminal
 description: |
   System monitoring dashboard for terminal
-version: git
+version: v1.1.5
 base: core22
 grade: stable
 
@@ -14,7 +14,8 @@ apps:
 
 parts:
   gtop:
-    source: .
+    source: https://github.com/aksakalli/gtop.git
+    source-tag: ${SNAPCRAFT_PROJECT_VERSION}
     plugin: npm
     npm-include-node: true
     npm-node-version: "17.3.0"
