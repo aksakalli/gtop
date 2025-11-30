@@ -50,12 +50,16 @@ You can sort the process table by pressing
 * `m`: Memory usage
 
 ### Troubleshooting
+#### Problems with character encoding
 
 If you see question marks or other different characters, try to run it with these environment variables:
 
 ```sh
 $ LANG=en_US.utf8 TERM=xterm-256color gtop
 ```
+
+#### Incomplete Network History
+If Network History is shown without transfared data, try to increase the number of shown lines in your terminal screen.
 
 ## License
 
